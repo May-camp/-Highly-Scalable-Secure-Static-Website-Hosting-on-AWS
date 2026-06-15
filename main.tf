@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "s3" {
 
   tags = {
     Name        = var.s3_name
-    Envirenment = var.environment
+    Environment = var.environment
   }
 }
 
